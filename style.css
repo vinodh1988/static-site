@@ -1,0 +1,74 @@
+h1{
+    background-color: yellow;
+}
+nav{
+    
+    overflow: hidden;
+}
+
+#slideshow{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#slideshow img{
+    height: 100%;
+    width: 100%;
+}
+
+#form{
+    background-color: lightgrey;
+    color: darkblue;
+    font-family: arial;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    min-height: 300px;
+}
+
+#list{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightslategray;
+    color: white;
+    display :block;
+}
+
+#themes li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+
+#themes li:hover{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="button"]{
+    border: none;
+    height: 30px;
+    padding:5px;
+    font-size: 14px;
+    background-color: darkred;
+    color: white;
+    font-family: arial;
+}
+
